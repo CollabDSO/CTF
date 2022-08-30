@@ -9,7 +9,7 @@ $enc = Encipher($inputText, $inputOffset);
 echo "$enc<br/>";
 
 $dec = Decipher($enc, $inputOffset);
-//echo "Dec: $dec";
+
 
 function Cipher($ch, $key)
 {
