@@ -10,6 +10,7 @@ echo "$enc<br/>";
 
 $dec = Decipher($enc, $inputOffset);
 
+//This function is used to create a Cipher.
 
 function Cipher($ch, $key)
 {
