@@ -39,5 +39,4 @@ function Decipher($input, $key)
 	return Encipher($input, 26 - $key);
 }
 
-//echo "Hi";
 ?>
